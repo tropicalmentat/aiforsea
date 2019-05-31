@@ -1,5 +1,6 @@
-name: grabforsea
+name: aiforsea
 channels:
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
@@ -11,7 +12,7 @@ dependencies:
   - bleach=3.1.0=py37_0
   - branca=0.3.1=py_0
   - bzip2=1.0.6=hfa6e2cd_5
-  - ca-certificates=2019.3.9=hecc5488_0
+  - ca-certificates=2019.1.23=0
   - certifi=2019.3.9=py37_0
   - cffi=1.12.3=py37hb32ad35_0
   - chardet=3.0.4=py37_1003
@@ -89,7 +90,7 @@ dependencies:
   - notebook=5.7.8=py37_0
   - numpy=1.16.3=py37h19fb1c0_0
   - numpy-base=1.16.3=py37hc3f5095_0
-  - openssl=1.1.1b=hfa6e2cd_2
+  - openssl=1.1.1=he774522_0
   - pandas=0.24.2=py37ha925a31_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
@@ -109,6 +110,7 @@ dependencies:
   - pyproj=1.9.6=py37h6782396_0
   - pyqt=5.9.2=py37h6538335_2
   - pyrsistent=0.14.11=py37he774522_0
+  - pysal=1.14.4=py37_0
   - pysocks=1.7.0=py37_0
   - python=3.7.3=h8c8aaf0_1
   - python-dateutil=2.8.0=py37_0
@@ -154,5 +156,5 @@ dependencies:
   - pip:
     - docutils==0.14
     - geohash==1.0
-prefix: C:\Users\jose.luigi.s.torres\.conda\envs\grabforsea
+prefix: C:\Users\jose.luigi.s.torres\.conda\envs\aiforsea
 
